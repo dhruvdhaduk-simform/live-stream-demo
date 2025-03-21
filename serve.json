@@ -1,0 +1,22 @@
+{
+  "headers": [
+    {
+      "source": "**/*.m3u8",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/x-mpegURL"
+        }
+      ]
+    },
+    {
+      "source": "**/*.ts",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "video/mp2t"
+        }
+      ]
+    }
+  ]
+}
